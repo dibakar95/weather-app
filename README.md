@@ -4,6 +4,10 @@ This is a robust and scalable Weather API service built from the ground up using
 
 While the application is designed to be production-ready and can be easily extended, please note that the Redis-based caching mechanism is currently commented out. An in-memory cache is used as a temporary replacement.
 
+## Project Roadmap
+
+This project is being developed as part of the "Weather API Wrapper Service" project on roadmap.sh. You can follow the project's progress and see the full roadmap here: [https://roadmap.sh/projects/weather-api-wrapper-service](https://roadmap.sh/projects/weather-api-wrapper-service)
+
 ## Features
 
 *   **Real-time Weather Data:** Fetches up-to-date weather information for any specified location.
