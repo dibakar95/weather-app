@@ -120,3 +120,7 @@ The project follows a standard structure for Express applications:
 ## Deployment
 
 This service is structured for easy deployment to container-based platforms like [Google Cloud Run](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-nodejs-service). You will typically need to create a `Dockerfile` to containerize the application for deployment.
+
+## TODO
+
+*   **Implement Rate Limiting:** Add a rate limiter to the API to protect against brute-force attacks and abuse. Libraries like `express-rate-limit` can be used for this purpose.
