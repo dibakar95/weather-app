@@ -1,12 +1,14 @@
+import 'dotenv/config';
 import express from 'express';
+
+const port = process.env.PORT || 3000;
+import apiRouter from './api/routes';
+
 const app = express();
 
-app.get('/', (req, res) => {
-  const name = process.env.NAME || 'World';
-  res.send(`Hello ${name}!`);
-});
+app.use('/api', apiRouter);
 
-const port = parseInt(process.env.PORT || '3000');
+export default app;
 app.listen(port, () => {
-  console.log(`listening on port ${port}`);
+  console.log(`Server is running on http://localhost:${port}`);
 });
