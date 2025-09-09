@@ -8,7 +8,6 @@ const app = express();
 
 app.use('/api', apiRouter);
 
-export default app;
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
